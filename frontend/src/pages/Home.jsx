@@ -75,8 +75,8 @@ const Home = () => {
                         </div>
 
                         <p className='text-md sm:text-lg font-semibold mt-8 md:mt-4 md:w-2/3'>
-                            Hi, I'm Fakhir Shaukat, A Frontend Engineer Creating
-                            Intuitive Digital Experience.
+                            Hi, I'm Fakhir Shaukat, A Frontend & Mernstack Engineer Creating
+                            Intuitive Digital Experiences.
                         </p>
                     </div>
                 </div>
@@ -108,16 +108,15 @@ const Home = () => {
                             <h1 className='text-3xl sm:text-4xl md:text-6xl'>Fakhir Shaukat</h1>
 
                             <p className='pt-2 leading-6 sm:leading-7 text-gray-500 text-sm sm:text-base'>
-                                I'm a Software Engineer graduated from Iqra University Karachi.
-                                My majors are Web Development, Software Development and AI/ML. I've recently started working on MERN Stack Development and building projects on it.
-                                I'm passionate about learning new technologies and continuously improving my skills. I've also completed multiple projects using NLP and Computer Vision. 
+                                I'm a Software Engineer and MERN Stack Developer graduated from Iqra University, Karachi. I specialize in building scalable web applications using React.js, Node.js, Express.js, and modern technologies.
+                                I have experience developing full-stack applications, REST APIs, and AI-powered solutions, with projects involving NLP and Computer Vision. I'm passionate about learning new technologies and creating impactful software solutions.
                             </p>
                             <div className='flex gap-2 flex-wrap'>
                                 <a href="https://www.linkedin.com/in/fakhir-shaukat-950548246/?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BvpmgMF%2F8Soq3Zth37wiUSA%3D%3D">
                                     <button className="relative px-4  py-3 mt-4 rounded-lg bg-blue-500 text-white text-sm  hover:bg-blue-600 transition duration-300 group">
                                         <span className="relative flex items-center z-10  group-hover:text-blue-600">
                                             Let's Connect
-                                            <img src={assets.linkedin}  className='ml-2  w-6 ' />
+                                            <img src={assets.linkedin} className='ml-2  w-6 ' />
                                         </span>
                                         <span className="absolute inset-0 bg-white border rounded-lg border-blue-500 scale-x-0 group-hover:scale-x-100 origin-left transition-transform duration-300"></span>
                                     </button>
@@ -154,7 +153,7 @@ const Home = () => {
                         </div>
 
                         <div>
-                            <h1 className='text-3xl sm:text-4xl font-semibold'>10+</h1>
+                            <h1 className='text-3xl sm:text-4xl font-semibold'>15+</h1>
                             <p className='text-gray-400 text-sm'>GitHub repositories showcasing my learning.</p>
                         </div>
                     </div>
@@ -192,7 +191,7 @@ const Home = () => {
                     <div className='w-full md:w-2/5 animated-border p-5'>
                         <div className='flex gap-3 items-center'>
                             <img className='w-8' src={assets.gear} alt="" />
-                            <h1 className='text-lg lg:text-2xl font-semibold'>Backend <span className='text-sm text-yellow-400'>60%</span></h1>
+                            <h1 className='text-lg lg:text-2xl font-semibold'>Backend <span className='text-sm text-green-500'>80%</span></h1>
                         </div>
 
                         <p className='text-sm text-gray-500 mt-3 leading-relaxed'>
