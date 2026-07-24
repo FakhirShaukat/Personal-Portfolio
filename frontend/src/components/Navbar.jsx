@@ -15,10 +15,10 @@ const Navbar = () => {
 
   useEffect(() => {
     const saveResume = () => {
-      const resumeUrl = '/src/resume/FakhirShaukat_CV.pdf'
+      const resumeUrl = '/src/resume/Fakhir_Shaukat_Resume.pdf'
       const link = document.createElement('a')
       link.href = resumeUrl
-      link.download = 'FakhirShaukat_CV.pdf'
+      link.download = 'Fakhir_Shaukat_Resume.pdf'
       document.body.appendChild(link)
       link.click()
       document.body.removeChild(link)
@@ -60,7 +60,7 @@ const Navbar = () => {
 
         {/* Button */}
         <div className='hidden md:block'>
-          <a href="/FakhirShaukat_CV.pdf" download>
+          <a href="/Fakhir_Shaukat_Resume.pdf" download>
             <button
               className={`border rounded-md px-4 py-2 text-sm transition
               ${scrolled
@@ -103,7 +103,7 @@ const Navbar = () => {
         </ul>
 
         {/* Connect Button */}
-        <a href="/FakhirShaukat_CV.pdf" download>
+        <a href="/Fakhir_Shaukat_Resume.pdf" download>
           <button className="mt-auto bg-red-500 rounded-md p-3 w-full text-sm hover:bg-red-600  transition">
             Download Resume
           </button>
