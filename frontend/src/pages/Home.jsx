@@ -313,6 +313,66 @@ const Home = () => {
                     </div>
                 </div>
             </div>
+            {/* HACKATHONS SECTION */}
+            <div id="hackathons" className="hackathons-section mt-10 md:mt-16 px-4 md:px-10 flex flex-col gap-6">
+                <div className="p-4 sm:p-6 w-full">
+                    <span className="inline-block p-2 bg-black text-white text-xs md:text-sm rounded-full px-4 md:px-6 shadow-md">
+                        Competitions
+                    </span>
+
+                    <div className="mt-8">
+                        <h1 className="text-3xl sm:text-4xl md:text-6xl font-light">
+                            Hackathons & Community
+                        </h1>
+                    </div>
+
+                    <div className="mt-8 grid grid-cols-1 md:grid-cols-2 gap-6">
+                        {/* Google AI Seekho 2026 */}
+                        <div className="border border-gray-200 rounded-2xl p-6 hover:shadow-xl transition duration-300 flex flex-col justify-between bg-white">
+                            <div>
+                                <div className="flex justify-between items-start gap-4">
+                                    <div>
+                                        <span className="text-xs font-semibold uppercase tracking-wider text-green-500">
+                                            Participant / Innovation Project
+                                        </span>
+                                        <h2 className="text-xl sm:text-2xl font-bold mt-1">
+                                            Urban Crisis Multi-Agent System
+                                        </h2>
+                                        <p className="text-gray-400 text-xs sm:text-sm">
+                                            Google AI Seekho 2026
+                                        </p>
+                                    </div>
+                                    <span className="text-xs text-gray-400 bg-gray-100 px-3 py-1 rounded-full whitespace-nowrap">
+                                        2026
+                                    </span>
+                                </div>
+
+                                <p className="mt-4 text-sm text-gray-600 leading-relaxed">
+                                    Developed an agentic system designed for urban crisis response. The architecture deploys multiple autonomous AI agents that plan and execute emergency workflows in real time—evaluating fire scenes based on location, incident timing, and severity level to automatically dispatch and notify emergency fire brigades.
+                                </p>
+
+                                <div className="flex flex-wrap gap-2 mt-4">
+                                    <span className="text-xs bg-gray-100 text-gray-800 px-3 py-1 rounded-md font-medium">Agentic AI</span>
+                                    <span className="text-xs bg-gray-100 text-gray-800 px-3 py-1 rounded-md font-medium">Multi-Agent Systems</span>
+                                    <span className="text-xs bg-gray-100 text-gray-800 px-3 py-1 rounded-md font-medium">Python</span>
+                                    <span className="text-xs bg-gray-100 text-gray-800 px-3 py-1 rounded-md font-medium">AI Planning</span>
+                                </div>
+                            </div>
+
+                            <div className="mt-6 pt-4 border-t border-gray-100 flex items-center justify-between">
+                                <a
+                                    href="https://github.com/FakhirShaukat/Hackathon-Project"
+                                    target="_blank"
+                                    rel="noreferrer"
+                                    className="text-xs font-semibold text-black hover:text-green-600 transition flex items-center gap-1"
+                                >
+                                    View Repository ↗
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
             {/* My Work */}
             <div id="projects" className="work-section  mt-10 md:mt-10 px-6 md:px-16 gap-6 ">
