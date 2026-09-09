@@ -22,6 +22,7 @@ import project6 from '../assets/project6.png'
 import project7 from '../assets/project7.png'
 import project8 from '../assets/project8.png'
 import project9 from '../assets/project9.png'
+import project10 from '../assets/project10.png'
 import up_arrow from '../assets/up.png'
 import f1 from '../assets/f1.png'
 import f2 from '../assets/f2.png'
@@ -46,6 +47,7 @@ export const assets = {
     profile2,
     right_arrow,
     up_arrow,
+    project10,
     project9,
     project8,
     project7,

@@ -662,6 +662,39 @@ const Home = () => {
                             </a>
                         </div>
 
+
+                    </div>
+                    <div className="group w-2/1 relative rounded-xl overflow-hidden bg-black shadow-md hover:shadow-2xl transition duration-300 flex flex-col">
+
+                        <div className="relative overflow-hidden ">
+                            <img src={assets.project10} className="w-full h-52 object-cover  transform group-hover:scale-110 transition duration-500" alt="" />
+                            <div className="absolute inset-0 bg-black/70 opacity-0 group-hover:opacity-100 transition duration-300 flex items-center justify-center gap-3">
+                                <a href="https://del-frio.netlify.app/">
+                                    <button className="border border-green-500 2 text-green-500 px-4 py-2 text-xs rounded-full hover:bg-green-500 hover:text-black transition">
+                                        Live Demo
+                                    </button>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div className="p-4 text-white flex flex-col flex-grow">
+                            <h1 className="text-lg font-semibold">Del Frio</h1>
+                            <p className="text-xs text-gray-300 mt-2 leading-relaxed">DelFrio is a full fledge cafe and restaurant in the heart of Karachi</p>
+                            {/* Tech Stack */}
+                            <div className="flex flex-wrap gap-2 mt-3">
+                                <span className="text-[10px] bg-white/10 px-2 py-1 rounded">ReactJS</span>
+                                <span className="text-[10px] bg-white/10 px-2 py-1 rounded">Tailwind CSS</span>
+                                <span className="text-[10px] bg-white/10 px-2 py-1 rounded">Frontend Development</span>
+                            </div>
+                            <a href="https://github.com/FakhirShaukat">
+                                <button className="mt-6 flex justify-center items-center w-full mt-5 bg-white text-black p-2 text-sm rounded-md hover:bg-gray-200 transition">
+                                    View Details
+                                    <img src={assets.up_arrow} alt="Right Arrow" className="ml-2 w-4 h-4" />
+                                </button>
+                            </a>
+                        </div>
+
+
                     </div>
 
 
