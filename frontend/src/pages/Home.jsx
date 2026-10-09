@@ -75,7 +75,7 @@ const Home = () => {
                         </div>
 
                         <p className='text-md sm:text-lg font-semibold mt-8 md:mt-4 md:w-2/3'>
-                            Hi, I'm Fakhir Shaukat, A Frontend & Mernstack Engineer Creating
+                            Hi, I'm Fakhir Shaukat, A Full-Stack Engineer Creating
                             Intuitive Digital Experiences.
                         </p>
                     </div>
@@ -267,17 +267,26 @@ const Home = () => {
 
                             <div className='w-full md:w-2/3'>
                                 <h1 className='font-semibold text-lg md:text-xl'>
-                                    MERN-Stack Developer Intern
+                                    MERN Stack Developer Intern
                                 </h1>
                                 <h2 className='text-gray-400 text-sm md:text-base'>
                                     10Pearls Pakistan
                                 </h2>
 
-                                <p className='mt-3 text-sm text-gray-600 leading-relaxed'>
-                                    Developed a full-stack Notes Management Application using the MERN stack, enabling users to manage daily tasks efficiently.
-                                    Built both frontend and backend features with a focus on performance and responsiveness.
-                                    Implemented testing using Mocha, Chai, and Jest, and improved code quality through SonarQube.
-                                    Used Git for version control with structured branching and collaborative workflows.
+                                <p className='mt-3 pl-4 text-sm text-gray-600 leading-relaxed'>
+                                    <li>Developed a full-stack Notes Management web application using the MERN stack, implementing 11 core
+                                        modules including authentication, note creation, updating, deletion, pinning, and password recovery. </li>
+                                    <li>Built a component-based React and Tailwind CSS frontend and developed RESTful APIs using Node.js and Express.js,
+                                        integrating MongoDB for non-relational data storage. </li>
+                                    <li>Implemented a complete authentication flow covering signup, login, forgot/reset password, Nodemailer-based password
+                                        recovery, and Google Authentication using OAuth 2.0, with JWT-based session management and 1-hour token expiration. </li>
+                                    <li> Identified and resolved a user data-integrity issue where authenticated sessions could expose previously logged-in user data by
+                                        implementing token verification middleware to associate requests with the correct authenticated user. </li>
+                                    <li> Established a Git-based feature workflow by creating feature branches, raising merge requests for mentor review. </li>
+                                    <li>Created and executed automated frontend and backend test cases using Jest, Mocha, and Chai, and generated a SonarQube
+                                        system-quality report to evaluate the complete application. </li>
+                                    <li>Participated in weekly mentor follow-up sessions, communicating development progress, discussing technical challenges, and
+                                        adapting implementation based on feedback. </li>
                                 </p>
                             </div>
 
@@ -297,11 +306,19 @@ const Home = () => {
                                     Internship Pakistan
                                 </h2>
 
-                                <p className='mt-3 text-sm text-gray-600 leading-relaxed'>
-                                    Translated Figma designs into clean, reusable, and responsive frontend code using modern JavaScript practices.
-                                    Collaborated with the team to build user-friendly interfaces and maintain high code quality.
-                                    Contributed to a full-stack job platform with features like job listings and applications.
-                                    Focused on performance optimization and delivering a smooth user experience.
+                                <p className='mt-3 pl-4 text-sm text-gray-600 leading-relaxed'>
+                                    <li>Developed four responsive, user-focused React websites including an e-commerce store, ticket-booking
+                                        platform, personal portfolio, and business website using Tailwind CSS and component-based architecture. </li>
+                                    <li>Collaborated in a 5member team to develop a full-stack job-seeker platform, taking ownership of the frontend experience across
+                                        the landing page, authentication screens, main dashboard, jobs page, and user profile. </li>
+                                    <li>Designed and implemented reusable, responsive UI components in React.js and Tailwind CSS, translating functional
+                                        requirements into user-focused interfaces. </li>
+                                    <li>Integrated frontend modules with backend functionality and validated RESTful API workflows using Postman before handing
+                                        completed modules to the next team member. </li>
+                                    <li>Addressed integration challenges caused by independently developed modules and inconsistent dependencies by establishing a
+                                        sequential test-and-handoff workflow, ensuring each completed module was validated before integration. </li>
+                                    <li>Communicated with team members responsible for backend, database, and other modules to coordinate integration.
+                                    </li>
                                 </p>
                             </div>
 
