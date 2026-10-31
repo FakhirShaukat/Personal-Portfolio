@@ -104,12 +104,15 @@ const Home = () => {
                     <div className='p-4 sm:p-6'>
                         <span className=' p-2 bg-black shadow-lg text-white text-xs md:text-sm rounded-full px-3 md:px-6'>About Me</span>
 
-                        <div className='mt-8 w-full md:w-3/4'>
+                        <div className='mt-8 w-full md:w-4/4'>
                             <h1 className='text-3xl sm:text-4xl md:text-6xl'>Fakhir Shaukat</h1>
 
                             <p className='pt-2 leading-6 sm:leading-7 text-gray-500 text-sm sm:text-base'>
-                                I'm a Software Engineer and MERN Stack Developer graduated from Iqra University, Karachi. I specialize in building scalable web applications using React.js, Node.js, Express.js, and modern technologies.
-                                I have experience developing full-stack applications, REST APIs, and AI-powered solutions, with projects involving NLP and Computer Vision. I'm passionate about learning new technologies and creating impactful software solutions.
+                                Im a Software Engineer, focused on building responsive web applications, accessible user interfaces, and AI-powered software products.  
+                                My journey has been driven by a passion for building impactful digital products, solving complex problems, and continuously evolving with emerging technologies.
+                                <br />
+                                With hands-on experience in frontend engineering, full-stack development, and AI-powered applications, 
+                                I strive to transform ideas into reliable, user-focused solutions. My approach is rooted in continuous learning, technical excellence, and a commitment to writing clean, maintainable code.
                             </p>
                             <div className='flex gap-2 flex-wrap'>
                                 <a href="https://www.linkedin.com/in/fakhir-shaukat-950548246/?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BvpmgMF%2F8Soq3Zth37wiUSA%3D%3D">
